@@ -28,3 +28,7 @@ aiofiles==0.5.0
 RUL = 'http://music.163.com/api/song/detail/?id={0}&ids=%5B{1}%5D'.format(song_id, song_id) 
 
 例子：http://music.163.com/api/song/detail/?id=1347203552&ids=%5B1347203552%5D
+
+****
+2024-12-19
+修改json读取方式
